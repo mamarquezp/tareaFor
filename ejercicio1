@@ -1,0 +1,6 @@
+// ejercicioFor 1
+let tabla = prompt(`Ingresa la tabla de multiplicar que deseas ver: `)
+const tablaEntero = parseInt(tabla)
+for (let i = 1; i <= 10; i++) {
+    console.log(`${tablaEntero} X ${i} = ${tablaEntero * i}`)
+}
